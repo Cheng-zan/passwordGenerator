@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="" type="image/ico">
+    <title>Pass Generate</title>
+    <link rel="icon" href="./images/favicon.ico" type="image/icon">
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+<body>
+    <div class="inputContainer">
+        <label id="labelName"></label>
+        <input type="number" class="user" id="userInput"  placeholder="Length password" max="30">
+        <input class="user" type="text" id="showPassword" disabled>
+        <button class="userButton" onclick="showPassword()" id="getPassword">Generate</button>
+        <a  onclick="savePassword()" id="saveButton">Save</a>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>

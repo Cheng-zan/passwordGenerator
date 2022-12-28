@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: initial;
+    color: white;
+}
+
+.inputContainer {    
+    background-image: url(../images/background.png);
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.user {
+    width: 200px;
+    height: 30px;
+    padding: 10px 10px 10px 15px;
+    color: black;
+}
+
+.user:disabled {
+    background-color: #ffff;
+}
+
+.userButton {
+    width: 150px;
+    height: 30px;
+    border-radius: 50px ;
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+
+#saveButton {
+    width: 140px;
+    height: 25px;
+    border-radius: 50px ;
+    background-color: #1F51FF;
+    cursor: pointer;
+    text-align: center;
+    color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.userButton:hover {
+    background-color: #1F51FF;
+}
